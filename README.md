@@ -228,22 +228,34 @@ Reviewed the cloud device inventory and confirmed:
 
 ## 📸 Deployment Evidence
 
-Screenshots will be organized in the `screenshots/` directory and referenced in the project documentation.
+The following screenshots document the configuration, deployment, and validation of the Windows 11 Autopilot and Microsoft Intune implementation.
 
-Planned evidence includes:
+All evidence is stored in the [`screenshots/`](screenshots/) directory.
 
-1. Windows Autopilot device registration.
-2. Autopilot deployment profile assignment.
-3. Microsoft Entra device security group.
-4. Automatic MDM enrollment configuration.
-5. Enrollment user licensing.
-6. Windows enrollment restrictions.
-7. Microsoft Entra device join settings.
-8. Windows 11 Enterprise activation.
-9. `dsregcmd /status` verification.
-10. Microsoft Intune enrollment and compliance verification.
+| Evidence | Description | Screenshot |
+|---|---|---|
+| 01 | Windows Autopilot device registration | [View Evidence](screenshots/01-autopilot-device-registration.png) |
+| 02 | Microsoft Intune tenant status and MDM authority | [View Evidence](screenshots/02-intune-tenant-status.png) |
+| 03 | Windows Autopilot deployment profile assignment | [View Evidence](screenshots/03-autopilot-profile-assigned.png) |
+| 04 | Automatic MDM enrollment scope | [View Evidence](screenshots/04-mdm-enrollment-scope.png) |
+| 05 | Enrollment user license verification | [View Evidence](screenshots/05-user-license-verification.png) |
+| 06 | Windows enrollment restrictions | [View Evidence](screenshots/06-enrollment-restrictions.png) |
+| 07 | Autopilot device security group membership | [View Evidence](screenshots/07-autopilot-device-group-membership.png) |
+| 08 | Windows 11 Enterprise activation | [View Evidence](screenshots/08-windows-11-activation.png) |
+| 09 | Microsoft Entra join verification using `dsregcmd /status` | [View Evidence](screenshots/09-dsregcmd-join-verification.png) |
+| 10 | Microsoft Intune management and device compliance | [View Evidence](screenshots/10-intune-compliance-verification.png) |
 
-**Privacy:** Screenshots should be reviewed and redacted before public publication.
+### Deployment Validation Highlights
+
+**Microsoft Entra Joined:** Yes  
+**Device Authentication:** Successful  
+**MDM:** Microsoft Intune  
+**Device Compliance:** Yes  
+**Windows 11 Enterprise Activation:** Active
+
+For the full implementation procedure, troubleshooting history, risk assessment, rollback plan, and validation results, see [CHG0001002 — Formal Change Ticket](CHG0001002-Change-Ticket.md).
+
+> **Security note:** Screenshots were redacted before publication to protect sensitive identity and tenant information.
 
 ---
 
