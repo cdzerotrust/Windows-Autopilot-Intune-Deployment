@@ -399,12 +399,12 @@ The following evidence artifacts are planned for publication in the repository's
 | Evidence ID | Description | Planned Filename |
 |---|---|---|
 | EVD-01 | Windows Autopilot device registration | `01-autopilot-device-registration.png` |
-| EVD-02 | Autopilot device security group | `02-autopilot-device-group.png` |
+| EVD-02 | Microsoft Intune tenant status — MDM authority and account status | `02-intune-tenant-status.png` |
 | EVD-03 | Autopilot deployment profile assignment | `03-autopilot-profile-assigned.png` |
 | EVD-04 | Automatic MDM enrollment scope | `04-mdm-enrollment-scope.png` |
 | EVD-05 | Enrollment user licensing | `05-user-license-verification.png` |
 | EVD-06 | Windows enrollment restrictions | `06-enrollment-restrictions.png` |
-| EVD-07 | Microsoft Entra device join configuration | `07-entra-device-join.png` |
+| EVD-07 | Microsoft Entra Autopilot security group — device membership | `07-autopilot-device-group-membership.png` |
 | EVD-08 | Windows 11 Enterprise activation | `08-windows-11-activation.png` |
 | EVD-09 | `dsregcmd /status` join verification | `09-dsregcmd-join-verification.png` |
 | EVD-10 | Intune management and compliance verification | `10-intune-compliance-verification.png` |
